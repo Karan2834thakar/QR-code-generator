@@ -1,8 +1,31 @@
-# React + Vite
+# CodeCraft - QR Code Generator  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **CodeCraft**, a user-friendly web application for generating QR codes effortlessly. This project is built with React.js and styled with Tailwind CSS to ensure responsiveness and seamless functionality across all devices.  
 
-Currently, two official plugins are available:
+## 🚀 Features  
+- **QR Code Generation**: Instantly create QR codes from text input.  
+- **Responsive Design**: Optimized for both desktop and mobile views.  
+- **User-Friendly Interface**: Simple and intuitive design for smooth user experience.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🛠️ Technologies Used  
+- **React.js**: For building the user interface.  
+- **Tailwind CSS**: For responsive and modern styling.  
+- **React Router**: For seamless page navigation.  
+
+---
+
+## 📂 Project Structure  
+```plaintext
+📦 QR Code Generator  
+├── src  
+│   ├── components  
+│   │   ├── Login.jsx       // Login page for user input  
+│   │   ├── Generator.jsx   // QR code generator functionality  
+│   ├── App.jsx             // Main application component  
+│   ├── index.css           // Tailwind CSS styling  
+│   ├── index.js            // Entry point  
+├── public  
+│   ├── index.html          // Main HTML file  
+├── package.json            // Project dependencies  
